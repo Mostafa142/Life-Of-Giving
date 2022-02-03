@@ -1,0 +1,118 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next.swiper-button-disabled,
+.page-causes .swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+.page-causes .swiper-button-next {
+  right: 0;
+}
+.page-causes .swiper-button-prev {
+  left: 0;
+}
+.page-causes .swiper-horizontal > .swiper-pagination-bullets,
+.page-causes .swiper-pagination-bullets.swiper-pagination-horizontal,
+.page-causes .swiper-pagination-custom,
+.page-causes .swiper-pagination-fraction {
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .page-causes .swiper-button-next {
+    display: none;
+  }
+  .page-causes .swiper-button-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .cause-wrap figure {
+    width: 100%;
+  }
+}
+/* Start Page Cuases  */
+.page-causes {
+  position: relative;
+  padding: 96px 0;
+  background: url(./../Images/causesbg.jpg) no-repeat center;
+  background-size: cover;
+  z-index: 99;
+}
+.page-causes::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: rgba(232, 237, 238, 0.8);
+}
+.cause-wrap {
+  margin-top: 50px;
+}
+.page-causes .cause-wrap {
+  margin-top: 0px;
+}
+.page-causes .section-heading {
+  margin-bottom: 60px;
+}
+.page-causes .cause-wrap figure {
+  position: relative;
+}
+.page-causes .cause-wrap figure .figure-overlay {
+  top: 0;
+  left: 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s;
+}
+.page-causes .cause-wrap figure:hover .figure-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.btnn.gradient-bg {
+  border: 2px solid #ff4800;
+  background: #ff4800;
+  color: #fff;
+}
+.page-causes .cause-content-wrap {
+  padding: 32px;
+  background: #fff;
+}
+.page-causes .cause-content-wrap .entry-content {
+  margin-top: 20px;
+}
+.page-causes .cause-wrap .fund-raised {
+  margin-top: 48px;
+}
+/* End Page Causes  */

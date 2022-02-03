@@ -1,0 +1,48 @@
+.causes .page-header {
+  background: url(./../Images/causesimg.jpg) no-repeat center;
+}
+.causes .welcome-page {
+  padding: 96px 0;
+  background-color: #fff;
+}
+.causes .page-causes::after {
+  display: none;
+}
+.causes .page-causes {
+  position: relative;
+  padding: 96px 0;
+  background: none;
+  background-size: cover;
+  z-index: 99;
+}
+.causes .page-causes .cause-wrap {
+  border: 1px solid #e0e0e0;
+  border-top: 0;
+  margin-top: 30px;
+}
+.causes .featured-cause {
+  padding: 96px 0;
+}
+
+.highlighted-cause {
+  padding: 46px 0 96px;
+  background: #262626;
+}
+.highlighted-cause .entry-title {
+  padding-right: 24px;
+  margin-top: 60px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.highlighted-cause .entry-content {
+  font-size: 14px;
+  line-height: 2;
+  color: #edf3f5;
+}
+.causes .section-heading .entry-title::before {
+}
+.causes .highlighted-cause img {
+  width: 100%;
+  margin-top: 60px;
+}

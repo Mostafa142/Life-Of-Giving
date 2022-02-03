@@ -1,0 +1,115 @@
+.aboutS .page-header {
+  background: url(./../Images/Aboutimg.jpg) no-repeat center;
+}
+.aboutS .welcome-page {
+  padding: 96px 0;
+  background-color: #fff;
+}
+.aboutS .welcome-content .entry-title {
+  position: relative;
+  padding-bottom: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #262626;
+}
+.aboutS .help-us {
+  padding: 70px 0 96px;
+  background: #ff3700;
+}
+.aboutS .help-us h2 {
+  margin-top: 36px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+}
+.aboutS .help-us .btnn {
+  margin-top: 36px;
+}
+.aboutS .help-us .btnn,
+.aboutS .help-us .btnn:hover {
+  border-color: #fff;
+  color: #fff;
+}
+.aboutS .about-testimonial {
+  padding: 0 0 96px;
+}
+.aboutS .testimonial-cont {
+  margin-top: 96px;
+}
+.aboutS .testimonial-cont,
+.aboutS .testimonial-cont p {
+  position: relative;
+}
+.aboutS .testimonial-cont::before {
+  content: "â€œ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1;
+  color: #ff5a00;
+}
+.aboutS .testimonial-cont .entry-content {
+  padding-top: 42px;
+}
+.aboutS .testimonial-cont p {
+  padding-bottom: 32px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+  font-style: italic;
+}
+.aboutS .testimonial-cont p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 64px;
+  height: 4px;
+  border-radius: 2px;
+  background: #ff5a00;
+}
+.aboutS .testimonial-cont .entry-footer img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.aboutS .testimonial-cont .entry-footer h4 {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #595858;
+}
+.aboutS .testimonial-cont .entry-footer h4 span {
+  color: #ff5a00;
+}
+.aboutS .about-stats {
+  padding: 96px 0;
+  background: #262626;
+}
+.circular-progress-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #ff5a00 !important;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #fff !important;
+}
+.circular-progress-bar .entry-title {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+}
+.about-stats .circular-progress-bar .circle strong,
+.about-stats .circular-progress-bar .entry-title {
+  color: #fff;
+}
