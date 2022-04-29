@@ -47,12 +47,12 @@ const HeaderWithNavbar = () => {
                                 </div>
                                 <nav className={toggle ? "site-navigation d-flex justify-content-end align-items-center show" : "site-navigation d-flex justify-content-end align-items-center"}>
                                     <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center list-unstyled">
-                                        <li className="current-menu-item"><NavLink to="/" >Home</NavLink></li>
-                                        <li><NavLink to="/About">About us</NavLink></li>
-                                        <li><NavLink to="/Causes">Causes</NavLink></li>
-                                        <li><NavLink to="/Gallery">Gallery</NavLink></li>
-                                        <li><NavLink to="/News">News</NavLink></li>
-                                        <li><NavLink to="/Contact">Contact</NavLink></li>
+                                        <li className="current-menu-item"><NavLink to="/Life-Of-Giving/" >Home</NavLink></li>
+                                        <li><NavLink to="/Life-Of-Giving/About">About us</NavLink></li>
+                                        <li><NavLink to="/Life-Of-Giving/Causes">Causes</NavLink></li>
+                                        <li><NavLink to="/Life-Of-Giving/Gallery">Gallery</NavLink></li>
+                                        <li><NavLink to="/Life-Of-Giving/News">News</NavLink></li>
+                                        <li><NavLink to="/Life-Of-Giving/Contact">Contact</NavLink></li>
                                     </ul>
                                 </nav>
                                 <div onClick={toggleHandler} className={toggle ? "hamburger-menu d-lg-none open" : "hamburger-menu d-lg-none"}>

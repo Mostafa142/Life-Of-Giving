@@ -17,12 +17,12 @@ function App() {
       <Router>
         <HeaderWithNavbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/Causes" element={<Causes />} />
-          <Route path="/Gallery" element={<Gallery />} />
-          <Route path="/News" element={<News />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Life-Of-Giving/" element={<Home />} />
+          <Route path="/Life-Of-Giving/about" element={<About />} />
+          <Route path="/Life-Of-Giving/Causes" element={<Causes />} />
+          <Route path="/Life-Of-Giving/Gallery" element={<Gallery />} />
+          <Route path="/Life-Of-Giving/News" element={<News />} />
+          <Route path="/Life-Of-Giving/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
